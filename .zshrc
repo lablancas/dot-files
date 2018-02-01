@@ -115,6 +115,9 @@ alias gfa="git fetch --all"
 alias gr='cd $(git rev-parse --show-cdup)'
 alias cascade="git push && gco staging && git merge dev && git push && gco master && git merge staging && git push"
 
+# source tree
+alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
+
 alias ni="npm i -S"
 alias nu="npm un -S"
 alias nid="npm i -D"
