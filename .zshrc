@@ -118,6 +118,7 @@ alias cascade="git push && gco staging && git merge dev && git push && gco maste
 # source tree
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 
+# npm
 alias ni="npm i -S"
 alias nu="npm un -S"
 alias nid="npm i -D"
