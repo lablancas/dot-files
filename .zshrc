@@ -106,6 +106,7 @@ alias getenv="sed -E 's|$| \\\|' .env"
 
 # git
 alias gcm="git commit -m"
+alias gca="git commit --amend"
 alias ga="git add"
 alias gs="git status"
 alias gd="git diff"
