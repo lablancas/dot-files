@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/Users/lucas/Library/Python/2.7/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=/Users/lucas/Library/Python/3.6/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/lucas/.oh-my-zsh
