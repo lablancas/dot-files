@@ -129,6 +129,8 @@ alias nud="npm un -D"
 alias sshpia="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@52.90.147.21"
 alias sshpiw="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@54.85.196.193"
 
+alias sedr="replaceall.sh"
+
 ###-tns-completion-start-###
 if [ -f /Users/lucas/.tnsrc ]; then 
     source /Users/lucas/.tnsrc 
