@@ -128,13 +128,6 @@ alias nud="npm un -D"
 # project insiders
 alias sshpia="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@52.90.147.21"
 alias sshpiw="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@54.85.196.193"
-# Heritage Law Marketing
-export WEB_HOME=~/Sites/heritagelawmarketing
-alias hlmdbpro='cd ~/Development/hlm/dashboard; gulp clean; gulp prod; rsync -chavzP --stats ~/Development/hlm/dashboard/release hlm@vps305.pairvps.com:/usr/home/hlm/public_html/user_dashboard'
-alias hlmdbloc='cd ~/Development/hlm/dashboard; gulp clean; gulp build; cp src/config.js release/; rsync -chavzP --stats ~/Development/hlm/dashboard/release/ $WEB_HOME/dashboard'
-alias hlmamloc='rsync -chavzP --stats ~/Development/hlm/amember/ $WEB_HOME'
-alias hlmwploc='rsync -chavzP --stats ~/Development/hlm/wordpress/ $WEB_HOME'
-alias hlmall='hlmdbloc; hlmamloc; hlmwploc'
 
 ###-tns-completion-start-###
 if [ -f /Users/lucas/.tnsrc ]; then 
