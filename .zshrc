@@ -93,6 +93,7 @@ alias tmk="tmux kill-session -t"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 alias lrt="ls -lrt"
 alias grepng="grep -Eo 'ng-[a-z]+=\"[^\"]+\"'"
@@ -132,7 +133,7 @@ alias sshpiw="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@54.85.196.193"
 alias sedr="replaceall.sh"
 
 ###-tns-completion-start-###
-if [ -f /Users/lucas/.tnsrc ]; then 
-    source /Users/lucas/.tnsrc 
+if [ -f /Users/lucas/.tnsrc ]; then
+    source /Users/lucas/.tnsrc
 fi
 ###-tns-completion-end-###
