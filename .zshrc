@@ -92,7 +92,7 @@ alias tml="tmux ls"
 alias tmk="tmux kill-session -t"
 
 export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
 alias lrt="ls -lrt"
 alias grepng="grep -Eo 'ng-[a-z]+=\"[^\"]+\"'"
