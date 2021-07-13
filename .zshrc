@@ -126,6 +126,11 @@ alias nu="npm un -S"
 alias nid="npm i -D"
 alias nud="npm un -D"
 
+# yarn
+alias ya="yarn add"
+alias yr="yarn remove"
+alias yw="yarn workspace"
+
 # project insiders
 alias sshpia="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@52.90.147.21"
 alias sshpiw="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@54.85.196.193"
