@@ -137,3 +137,4 @@ if [ -f /Users/lucas/.tnsrc ]; then
     source /Users/lucas/.tnsrc
 fi
 ###-tns-completion-end-###
+export PATH="/usr/local/sbin:$PATH"
