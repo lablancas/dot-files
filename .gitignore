@@ -2,3 +2,4 @@
 !*.local
 !.zshrc
 !.gitignore
+!.p10k.zsh
