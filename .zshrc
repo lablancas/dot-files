@@ -77,7 +77,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    npm
+    yarn
+    tmux
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,11 +117,6 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
 
-alias tma="tmux attach -t"
-alias tmn="tmux new -s"
-alias tml="tmux ls"
-alias tmk="tmux kill-session -t"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -124,31 +124,8 @@ alias cdd="cd /Users/lucas/Development/; cd"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# git
-alias gcm="git commit -m"
-alias gca="git commit --amend"
-alias ga="git add"
-alias gs="git status"
-alias gd="git diff"
-alias gco="git checkout"
-alias gp="git pull"
-alias gfa="git fetch --all"
-alias gr='cd $(git rev-parse --show-cdup)'
-alias cascade="git push && gco staging && git merge dev && git push && gco master && git merge staging && git push"
-
 # source tree
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
-
-# npm
-alias ni="npm i -S"
-alias nu="npm un -S"
-alias nid="npm i -D"
-alias nud="npm un -D"
-
-# yarn
-alias ya="yarn add"
-alias yr="yarn remove"
-alias yw="yarn workspace"
 
 alias sedr="replaceall.sh"
 
