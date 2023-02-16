@@ -82,6 +82,12 @@ plugins=(
     npm
     yarn
     tmux
+    zsh-autosuggestions
+    sudo
+    copypath
+    copyfile
+    history
+    jsontools
 )
 
 source $ZSH/oh-my-zsh.sh
