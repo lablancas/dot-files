@@ -101,16 +101,9 @@ alias tmk="tmux kill-session -t"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-alias lrt="ls -lrt"
-alias grepng="grep -Eo 'ng-[a-z]+=\"[^\"]+\"'"
 alias cdd="cd /Users/lucas/Development/; cd"
-alias hl='function _last() { history | grep -E "^ $1 +" | grep -v grep | tail -1 | sed -E "s/^ [0-9]+ +//" };_last'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
-alias getenv="sed -E 's|$| \\\|' .env"
 
 # git
 alias gcm="git commit -m"
@@ -137,10 +130,6 @@ alias nud="npm un -D"
 alias ya="yarn add"
 alias yr="yarn remove"
 alias yw="yarn workspace"
-
-# project insiders
-alias sshpia="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@52.90.147.21"
-alias sshpiw="ssh -i ~/.ssh/pi-linux-key.pem ec2-user@54.85.196.193"
 
 alias sedr="replaceall.sh"
 
