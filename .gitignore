@@ -4,3 +4,5 @@
 !.gitignore
 !.p10k.zsh
 !.czrc
+!.fzf.zsh
+!.fzf.bash
