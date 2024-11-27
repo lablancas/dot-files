@@ -122,14 +122,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias cdd="cd /Users/lucas/Development/; cd"
+alias cdd="cd $HOME/Development/; cd"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # source tree
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 
-alias sedr="/Users/lucas/bin/replaceall.sh"
+alias sedr="$HOME/bin/replaceall.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
