@@ -124,7 +124,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias cdd="cd $HOME/Development/; cd"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # source tree
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
